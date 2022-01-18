@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #e6e6e6;
+  color: #222;
+  font-size: 15px;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #e6e6e6;
+}
+
+.change-theme {
+  margin: 20px;
+  float: right;
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 20%;
+  text-align: center;
+  padding: 5px;          
+}
+
+.country-details {   
+    margin-top: 50px;
+    text-align:center;
+    width:100%;
+}
+
+.country-inner{   
+    text-align: center;
+    margin:1px;
+    height: 150px;
+    text-align:left;
+    border: 1px solid gray;
+    display:inline-block;    
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
